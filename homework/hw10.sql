@@ -19,6 +19,7 @@ create table dogs as
   select "eisenhower"     , "short"      , 35           union
   select "fillmore"       , "curly"      , 32           union
   select "grover"         , "short"      , 28           union
+  select "ronald"         , "curly"      , 32           union
   select "herbert"        , "curly"      , 31;
 
 create table sizes as

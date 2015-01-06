@@ -286,11 +286,9 @@ def swap_strategy(score, opponent_score, margin=8, num_rolls=5):
     elif new_score != opponent_score*2:
         return bacon_strategy(score, opponent_score, margin, num_rolls)
     else:
-        return num_rolls    
+        return num_rolls
 
 
-
-        
 def final_strategy(score, opponent_score):
     """Write a brief description of your final strategy.
 
